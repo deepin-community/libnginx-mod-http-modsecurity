@@ -1,5 +1,24 @@
-template-repository (1.0-1) unstable; urgency=medium
+libnginx-mod-http-modsecurity (1.0.3-2) unstable; urgency=medium
 
-  * Initial release
+  [ Ervin Hegedüs ]
+  * Renamed debian/README.ModSecurity.txt to debian/README.Debian
+  * Replaced new file in debian/libnginx-mod-http-modsecurity.docs
+  * Fixed bug identifier format in d/changelog (added a '#')
+  * Changed 'UNRELEASED' to 'unstable' in top of d/changelog entry
+  * Changed 'Maintainer' field to airween@gmail.com
+  * Changed 'Uploader' field to agi@inittab.org
+  * Changed 'Vcs-Git' and 'Vcs-Browser' fields content to team repository
+  * Added d/patches/stdioh.patch (Closes: #1067364, #1068207)
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ Jérémy Lal ]
+  * nginx_mod autodetects libnginx-mod-http-ndk-dev
+  * Use dh-sequence-nginx
+  * Let dh-nginx test run
+
+ -- Jérémy Lal <kapouer@melix.org>  Tue, 08 Aug 2023 10:50:55 +0200
+
+libnginx-mod-http-modsecurity (1.0.3-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #1012495)
+
+ -- Ervin Hegedus <airween@gmail.com>  Mon, 19 Sep 2022 18:14:29 +0200
