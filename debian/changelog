@@ -1,3 +1,9 @@
+libnginx-mod-http-modsecurity (1.0.3-2deepin1) unstable; urgency=medium
+
+  * No source change upload to rebuild against nginx 1.26.3.
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Mon, 25 Aug 2025 17:41:24 +0800
+
 libnginx-mod-http-modsecurity (1.0.3-2) unstable; urgency=medium
 
   [ Ervin Hegedüs ]
